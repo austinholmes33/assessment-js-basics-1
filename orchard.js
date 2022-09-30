@@ -51,8 +51,24 @@ const pinkPrice = .55
 
 // CODE HERE
 
+let totalAcres = 0
+//let acres = [[fujiAcres] + [galaAcres] + [pinkAcres]]
 
+for (let i=0; i<fujiAcres.length; i++) {
+    totalAcres += fujiAcres[i]
+}
 
+for (let i=0; i<galaAcres.length; i++) {
+    totalAcres += galaAcres[i]
+}
+
+for (let i=0; i<pinkAcres.length; i++) {
+    totalAcres += pinkAcres[i]
+}
+
+console.log(totalAcres)
+
+// I tried doing this calculation in a single loop, but could not figure out how to properly integrate each of the three arrays without messing something up. I tried applying the value of all three arrays to a single variable, but this did not work either. I don't think this is the cleanest or most concise solution, but it did work.
 
 
 // PROBLEM 2
@@ -70,7 +86,8 @@ const pinkPrice = .55
 // CODE HERE
 
 
-
+//let averageDailyAcres = totalAcres / acres.length
+//console.log(averageDailyAcres)
 
 
 // PROBLEM 3
@@ -107,7 +124,7 @@ let days = 0
 
 // CODE HERE
 
-
+//while (acresLeft > 0) {
 
 // PROBLEM 4
 
