@@ -88,9 +88,9 @@ for (let i=0; i<pinkAcres.length; i++) {
 
 
 let averageDailyAcres = totalAcres / (galaAcres.length + fujiAcres.length + pinkAcres.length)
-console.log(averageDailyAcres)
+//console.log(averageDailyAcres)
 
-
+// I feel like I was overthinking this one, but it made me hit a wall. I guess I keep feeling like I need to merge all three arrays to be able to properly work with them, and it is making these much harder than they need to be.
 
 
 // PROBLEM 3
@@ -127,10 +127,11 @@ let days = 0
 
 // CODE HERE
 
-while (acresLeft > 0) {
-    days++
-
-}
+//while (acresLeft > 0) {
+  //  days++
+    //acresLeft - averageDailyAcres
+//}
+//console.log(days)
 
 
 // PROBLEM 4
@@ -159,14 +160,23 @@ while (acresLeft > 0) {
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons = fujiAcres.slice(0, 7)
+let galaTons = galaAcres.slice(0, 7)
+let pinkTons = pinkAcres.slice(0, 7)
 
+for (i=0; i<fujiTons.length; i++) {
+    fujiTons[i] *= 6.5
+}
+for (i=0; i<galaTons.length; i++) {
+    galaTons[i] *= 6.5
+}
+for (i=0; i<pinkTons.length; i++) {
+    pinkTons[i] *= 6.5
+}
 
-
-
-
+console.log(fujiTons)
+console.log(galaTons)
+console.log(pinkTons)
 
 // PROBLEM 5
 
