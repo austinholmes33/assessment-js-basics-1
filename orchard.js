@@ -129,10 +129,10 @@ let days = 0
 
 while (acresLeft > 0) {
     days++;
-//    acresLeft - averageDailyAcres
+    acresLeft - averageDailyAcres;
 }
-console.log(days);
-
+//console.log(days)
+// I can't see why this isn't running in my terminal, as I have gone over it again and again, and can't seem to find what the issue would be
 
 // PROBLEM 4
 
@@ -253,4 +253,4 @@ let pinkProfit = (pinkPounds * pinkPrice)
 // CODE HERE
 
 let totalProfit = (fujiProfit + galaProfit + pinkProfit)
-console.log(total.totalProfit)
+console.log(totalProfit)
