@@ -51,7 +51,7 @@ const answers = []
 for (let i=0; i<bigOrSmallArray.length; i++) {
   if (bigOrSmallArray[i] > 100) {
     answers.push('big')
-  } else if (bigOrSmallArray[i] <= 100) {
+  } else if (bigOrSmallArray[i] < 100) {
     answers.push('small')
   }
 }
