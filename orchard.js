@@ -66,7 +66,7 @@ for (let i=0; i<pinkAcres.length; i++) {
     totalAcres += pinkAcres[i]
 }
 
-console.log(totalAcres)
+//console.log(totalAcres)
 
 // I tried doing this calculation in a single loop, but could not figure out how to properly integrate each of the three arrays without messing something up. I tried applying the value of all three arrays to a single variable, but this did not work either. I don't think this is the cleanest or most concise solution, but it did work.
 
@@ -86,8 +86,11 @@ console.log(totalAcres)
 // CODE HERE
 
 
-//let averageDailyAcres = totalAcres / acres.length
-//console.log(averageDailyAcres)
+
+let averageDailyAcres = totalAcres / (galaAcres.length + fujiAcres.length + pinkAcres.length)
+console.log(averageDailyAcres)
+
+
 
 
 // PROBLEM 3
@@ -124,7 +127,11 @@ let days = 0
 
 // CODE HERE
 
-//while (acresLeft > 0) {
+while (acresLeft > 0) {
+    days++
+
+}
+
 
 // PROBLEM 4
 
