@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'git is a program and a version control system that allows teams to track changes to coding projects by providing a history of snapshots of the code that can be stored in repositories.'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'GitHub is a website that functions as cloud storage for git repositories, and allows you to upload/download them. These repositories can be made private or public. It allows for collaboration on projects.'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+let gitInitDefinition = 'This makes your current folder into a repository. It is only used one time, when you first make it.'
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+let gitCloneDefinition = 'This copies a repository from GitHub and puts it on your local machine.'
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+let gitStatusDefinition = 'This provides you with the status of your current repository (tracks if anything has changed).'
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,8 @@
 
 //CODE HERE
 
+let gitAddDefinition = 'Starts tracking files that are specified (use "." to add every change made) and stages them to be committed.'
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +77,8 @@
 
 //CODE HERE
 
+let gitCommitDefinition = 'Takes a snapshot of everything in the repository that has been staged to be committed (always follow with -m and write a message pertaining to the commit).'
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +87,5 @@
 */
 
 //CODE HERE
+
+let gitPushDefinition = 'This pushes the commit made to GitHub.'
